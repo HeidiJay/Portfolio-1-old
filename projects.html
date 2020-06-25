@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Web Development and Design in Virginia Beach, Virginia" />
+  <meta name="keywords"
+    content="Heidi Jay, portfolio, resume, Virginia Beach website designer, web development, web design, programming, programmer, JavaScript, Python, CSS, HTML" />
+  <meta name="author" content="Heidi Jay" />
+  <title>Heidi Jay | My Projects</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/heidi4mix.jpg" alt="Profile">
+      <ul>
+        <li><i class="fas fa-scroll"></i><a href="home.html">Home</a></li>
+        <li class="current"><i class="fas fa-project-diagram"></i><a href="projects.html">My Projects</a></li>
+        <li><i class="fas fa-graduation-cap"></i><a href="education.html">Education</a></li>
+        <li><i class="fas fa-envelope"></i><a href="contact.php">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+  </header>
+  <main>
+
+    <div class="cards">
+      <div class="card">
+        <a href="http://www.heidijaydesigns.com/" target="_blank"><img src="images/UpdateMySite.png" alt="My Portfolio Website"></a>
+        <div class="content">
+          <div class="icons">
+            <ul>
+              <li>
+                <h3>JavaScript</h3>
+                <i class="fab fa-js"></i>
+              </li>
+              <li>
+                <h3>HTML</h3>
+                <i class="fab fa-html5"></i>
+              </li>
+              <li>
+                <h3>CSS</h3>
+                <i class="fab fa-css3-alt"></i>
+              </li>
+              <li>
+                <h3>PHP</h3>
+                <i class="fab fa-php"></i>
+              </li>
+            </ul>
+          </div>
+          <p>
+            <b>My Portfolio</b> This was the <b>first project I have done by scratch</b> and the best 
+            to showing off what I have learned so far, through both the coding and text inside. 
+            This project I mostly was focusing on practing my HTML and CSS, but there is a little 
+            JavaScript inside the code as well.  I would like to add more JavaScript soon.  I've 
+            learned a lot in the making of this website, enjoying the design and planning process. 
+            There are alot of improvments I would like to make soon on the Education & Contact page. 
+            It’s a site I will continue to develop as I learn.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <a href="https://worldonlinedesigns.com/" target="_blank"><img src="images/WorldOnlineDesigns.png" alt="World Online Designs Website"></a>
+        <div class="content">
+          <div class="icons">
+            <ul>
+              <li>
+                <h3>WordPress.org</h3>
+                <i class="fab fa-wordpress"></i>
+              </li>
+            </ul>
+          </div>
+          <p>
+            A blogging site for a client, <b>Tami MacDonald.</b>
+            This website was my first attempt at learning and building a website on WordPress.org.  
+            This turned out to not be as easy as the video tutorials made it look.  Every step 
+            turned out to be a huge challenge for this beginner.  But because of these challenges I ended up learning so much more 
+            than if everything had gone easy.  I learned how to setup hosting, register domain names, 
+            work the files in a C-Panel, setup WordPress, use SSL certificate, and started to learn 
+            how to navagate the Themes and Plugins of the site.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <a href="http://katriniasrabbithole.site/" target="_blank"><img src="images/KatriniaNow.png" alt="Katrinia's Personal Fan-Page Website"></a>
+        <div class="content">
+          <div class="icons">
+            <ul>
+              <li>
+                <h3>WordPress.org</h3>
+                <i class="fab fa-wordpress"></i>
+              </li>
+            </ul>
+          </div>
+          <p>
+            Personal blogging site for a client name <b>Katrinia Lovelace.</b>  This was another opportunity for 
+            me to practice building websites on WordPress.org. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <p>Heidi Jay's Portfolio, Copyright &copy; 2019</p>
+    <ul>
+      <li><a href="https://github.com/HeidiJay"><i class="fab fa-github-square"></i></a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.menu-toggle').click(function () {
+        $('nav').toggleClass('current')
+      })
+    })
+  </script>
+</body>
+
+</html>

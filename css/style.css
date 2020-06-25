@@ -1,0 +1,635 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  box-sizing: border-box;
+  background-image: url(../images/blackwood.jpg);
+  background-attachment: fixed;
+  background-color: #1c1f20;
+}
+
+/* Navigation Menu */
+
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  text-shadow: 2px 2px 3px #666666;
+  z-index: 10;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+  box-sizing: border-box;
+}
+
+header nav img {
+  width: 100%;
+  display: block;
+  border-bottom: 15px solid;
+  border-image: url(../images/blackwood.jpg);
+  border-image-width: 100%;
+}
+
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 25px 12px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+  border-bottom: 1px solid #000000;
+}
+
+header nav a:hover {
+  color: #2b1de8;
+}
+
+header nav .current a {
+  color: #2b1de8;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 7px;
+  background-color: #fff;
+}
+
+/* Nav Icons*/
+
+header nav i {
+  font-size: 20px;
+  height: 20px;
+}
+
+/* Hamburger for Media */
+
+.menu-toggle {
+  color: #fff;
+  float: right;
+  line-height: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* Icons */
+
+.fa-scroll {
+  color: #0099cc;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-project-diagram {
+  color: #0d9409;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-graduation-cap {
+  color: #000000;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-envelope {
+  color: #a3021d;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-js {
+  color: #f7f706;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-html5 {
+  color: #f78c22;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-css3-alt {
+  color: #0099cc;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-python {
+  color: #33ccff;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-bootstrap {
+  color: #7543c5;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-linux {
+  color: #000000;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-wordpress {
+  color: #000000;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-php {
+  color: #7543c5;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.fa-github-square {
+  color: #0e0e0f;
+  text-shadow: 2px 2px 3px #666666;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+}
+
+
+/* Main between Article, Showcase, Boxes*/
+
+main {
+  margin: 0 0 0 17%;
+  padding: 0;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+article {
+  float: left;
+  margin: 0;
+  padding: 0 10px;
+  display: block;
+  width: 35%;
+  height: 350px;
+  background-color: #f4f4f4;
+  text-align: center;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+  overflow: auto;
+}
+
+article h1 {
+  text-align: left;
+  padding-left: 10px;
+  font-style: normal;
+}
+
+article h2 {
+  font-size: 30px;
+  font-style: italic;
+  text-decoration-line: underline;
+}
+
+article hgroup {
+  line-height: 1em;
+}
+
+/* Showcase */
+#showcase img {
+  padding: 0;
+  margin: 0 0 0 39%;
+  margin-bottom: 15px;
+  display: block;
+  width: 58%;
+  height: 400px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* Boxes */
+.wrapper {
+  margin: 30px 50px 30px 30px;
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+}
+
+.wrapper .box {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* Box Icons */
+i {
+  font-size: 40px;
+}
+
+h3 {
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+
+/* Cards from Project and Education page */
+
+.cards {
+  display: block;
+  padding: 5px;
+  margin: 20px;
+  width: 95%;
+  background-color: #f4f4f4;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+.cards img {
+  width: 100%;
+  height: 98%;
+  border-style: outset;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+.cards img:hover {
+  border-style: inset;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.cards .card {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.cards .content {
+  margin: 10px;
+  color: #666666;
+}
+
+.cards .icons {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.cards ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cards li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 5px 10px 40px;
+}
+
+.cards h3 {
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+  color: #000000;
+}
+
+
+.cards p {
+  overflow-y: scroll;
+  margin: 0 0 0 15px;
+}
+
+
+/* Education Page */
+
+
+.wrap {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+
+.wrap .boxes {
+  text-align: center;
+  padding: 0;
+  height: 320px;
+  overflow: hidden;
+  margin: 10px 20px;
+  background-color: #f4f4f4;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.wrap img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+}
+
+.wrap h4 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.wrap h5 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.wrap p {
+  padding: 0;
+  margin: 10px 0 0 0;
+  overflow-y: scroll;
+}
+
+.intro {
+  background-color: #f4f4f4;
+  border-style: dashed;
+  border-color: #7e0a0a;
+  width: 80%;
+  padding: 0 10px;
+  margin: 15px 0;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+.label {
+  background-color: #f4f4f4;
+  border-style: double;
+  border-color: #043502;
+  margin: 15px 0;
+  width: 70%;
+  padding: 0 10px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+
+/* Contact Page */
+
+#photo {
+  position: absolute;
+  left: 50%;
+}
+
+#photo img {
+  width: 44%;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+#email {
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+  background-color: #f4f4f4;
+  padding: 0;
+  margin-top: 30px;
+  width: 30%;
+  
+}
+
+#email:hover {
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  width: 30%;
+  border-style: inset;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.dark{
+  padding:15px;
+  color:#35424a;
+  background-color:#ffffff;
+  margin-top:15px;
+  margin-bottom:30px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+aside#sidebar{
+  width:30%;
+  margin-top:10px;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+aside#sidebar input, aside#sidebar textarea{
+  width:90%;
+  padding:10px;
+  border-style: inset;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+aside#sidebar .button_1 {
+  margin: 10px 0 0 0;
+  width: 100px;
+  border-style: outset;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+aside#sidebar .button_1:hover {
+  margin: 10px 0 0 0;
+  width: 100px;
+  border-style: inset;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+
+/* Footer */
+
+footer {
+  padding: 10px 1px 1px 1px;
+  margin: 10px 0 0 0;
+  color: #000000;
+  background-image: url(../images/sideplant8.jpg);
+  background-color: #043502;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+/* Footer GitHub Icon Links */
+footer a {
+  position: relative;
+  bottom: 10px;
+}
+
+.fa-github-square:hover {
+  color: #1c1c1f;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  header nav img,
+  .menu-toggle,
+  header nav,
+  header nav .current,
+  header nav li,
+  main,
+  main article,
+  main #showcase img,
+  main .wrapper 
+  main .wrapper .box,
+  main .cards
+  main #email
+  main .dark
+  main aside#sidebar
+  footer {
+    float: none;
+    margin: 20px 5px;
+    text-align: center;
+    width: 95%;
+  }
+
+  header nav {
+    position: absolute;
+    margin: 2px;
+    width: 30%;
+    background: #fff;
+    top: 0;
+    left: -33%;
+    transition: 0.5s;
+  }
+
+  header nav img {
+    width: 100%;
+    margin: 0;
+  }
+
+  header nav.current {
+    left: 0;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  nav li {
+    height: 70px;
+  }
+
+  nav ul li a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-toggle {
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 40%;
+    cursor: pointer;
+    display: right;
+  }
+
+  #showcase img {
+    margin: 30px;
+  }
+
+  .wrapper {
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  main .cards {
+    height: 250px;
+  }
+
+  main .cards img {
+    height: 245px;
+  }
+
+  main .cards .icons {
+    margin: 0;
+    padding: 0;
+  }
+
+  main h3 {
+    display: none;
+  }
+
+  main .cards li {
+    margin: 5px 10px 15px 3px;
+    padding: 0;
+  }
+
+  main .cards p {
+    overflow-y: scroll;
+    height: 170px;
+  }
+
+  main .wrap {
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+
+  main #photo {
+    position: relative;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  main #email {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  main #email:hover {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  main aside#sidebar {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  footer {
+    margin: 20px 5px 0 0;
+  }
+}

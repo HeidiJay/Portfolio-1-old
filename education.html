@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Web Development and Design in Virginia Beach, Virginia" />
+  <meta name="keywords"
+    content="Heidi Jay, portfolio, resume, Virginia Beach website designer, web development, web design, programming, programmer, JavaScript, Python, CSS, HTML" />
+  <meta name="author" content="Heidi Jay" />
+  <title>Heidi Jay | Education</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/heidi1purple.jpg" alt="Profile">
+      <ul>
+        <li><i class="fas fa-scroll"></i><a href="home.html">Home</a></li>
+        <li><i class="fas fa-project-diagram"></i><a href="projects.html">My Projects</a></li>
+        <li class="current"><i class="fas fa-graduation-cap"></i><a href="education.html">Education</a></li>
+        <li><i class="fas fa-envelope"></i><a href="contact.php">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+  </header>
+  <main>
+
+    <div class="intro">
+      <h2>I have been teaching myself Front End Web Development 
+        since November 2018.  I am learning the Front-End, 
+        but in the future I am hoping to learn Back-End programming 
+        to futher my skills and become a Full-Stack Developer.  
+        I also want to learn Software Development and create 
+        beautiful and useful software.</h2>
+    </div>
+    <div class="label">
+      <h1>Books I have been learning from.</h1>
+    </div>
+    <section class="wrap">
+      <div class="boxes">
+        <img src="images/book1html.jpg" alt="HTML & CSS - design and build websites, book by Jon Duckett">
+        <h4>HTML & CSS</h4>
+        <h5>by Jon Duckett</h5>
+        <p>Design and build websites.</p>
+      </div>
+      <div class="boxes">
+        <img src="images/book2javascript.jpg"
+          alt="JavaScript & Jquery - interactive front-end web development, book by Jon Duckett">
+        <h4>JavaScript & Jquery</h4>
+        <h5>by Jon Duckett</h5>
+        <p>Interactive front-end web development.</p>
+      </div>
+      <div class="boxes">
+        <img src="images/book4javascript.jpg"
+          alt="JavaScript For Kids - a playful introduction to programming, book by Nick Morgan">
+        <h4>JavaScript For Kids</h4>
+        <h5>by Nick Morgan</h5>
+        <p>A playful introduction to programming.</p>
+      </div>
+      <div class="boxes">
+        <img src="images/book5python.jpg"
+          alt="Python For Kids - a playful introduction to programming, book by Jason R. Briggs">
+        <h4>Python For Kids</h4>
+        <h5>by Jason R. Briggs</h5>
+        <p>A playful introduction to programming.</p>
+      </div>
+      <div class="boxes">
+        <img src="images/book3webdesign.jpg"
+          alt="Learning Web Design - a beginner's guide to HTML, CSS, JavaScript, and web graghics, book by Jennifer Niederst Robbins">
+        <h4>Leaning Web Design</h4>
+        <h5>by Jennifer Niederst Robbins</h5>
+        <p>A beginner's guide to HTML, CSS, JavaScript, and web graghics.</p>
+      </div>
+      <div class="boxes">
+        <img src="images/book6think.jpg"
+          alt="Don't Make Me Think - a common sense approach to web and mobile usability, book by Steve Krug">
+        <h4>Don't Make Me Think</h4>
+        <h5>by Steve Krug</h5>
+        <p>A common sense approach to web and mobile usability.</p>
+      </div>
+    </section>
+    
+    <div class="label">
+        <h1>I've also have been learning from YouTube Tutorials</h1>
+    </div>
+    <div class="intro">
+      <h2>My next adventure I am gong to start tackling TeamTreeHouse learning challenge.  I am looking forward to their lesson plans.</h2>
+    </div>
+
+  </main>
+  <footer>
+    <p>Heidi Jay's Portfolio, Copyright &copy; 2019</p>
+    <ul>
+      <li><a href="https://github.com/HeidiJay"><i class="fab fa-github-square"></i></a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.menu-toggle').click(function () {
+        $('nav').toggleClass('current')
+      })
+    })
+  </script>
+</body>
+
+</html>

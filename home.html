@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Web Development and Design in Virginia Beach, Virginia" />
+  <meta name="keywords"
+    content="Heidi Jay, portfolio, resume, Virginia Beach website designer, web development, web design, programming, programmer, JavaScript, Python, CSS, HTML" />
+  <meta name="author" content="Heidi Jay" />
+  <title>Heidi Jay | Home</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/heidi5young.jpg" alt="Profile">
+      <ul>
+        <li class="current"><i class="fas fa-scroll"></i><a href="home.html">Home</a></li>
+        <li><i class="fas fa-project-diagram"></i><a href="projects.html">My Projects</a></li>
+        <li><i class="fas fa-graduation-cap"></i><a href="education.html">Education</a></li>
+        <li><i class="fas fa-envelope"></i><a href="contact.php">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+  </header>
+  <main>
+    <article>
+      <h1>Hello,</h1>
+
+      <hgroup>
+        <h2>I'm Heidi Jay</h2>
+        <h3>Aspiring Jr Front-End Web Developer</h3>
+        <h4>I am self taught and wanting to learn more.</h4>
+      </hgroup>
+      <p>Eagerly seeking a challenging position as an Entry Level Front-End Web Developer,
+        enabling me to utilize and expand on my educational skills and experience
+        so I can continue to grow as a developer in the best possible way for
+        achieving the company's goals.</p>
+
+    </article>
+    <section id="showcase">
+      <img src="images/office3htmlbook.jpg" />
+    </section>
+  
+    <section class="wrapper">
+      <div class="box">
+        <h3>JavaScript</h3>
+        <i class="fab fa-js"></i>
+        <p>
+          <b>Basic knowledge of the fundamentals of JavaScript as applied in web development.</b>
+          Knowlege in; Data Types, Variables, Arrays, Objects, Conditionals, Loops, Functions,
+          DOM manipulation, JQuery, Interactive Programming, Object-Oriented Programming,
+          Canvas Element and Controlling Animation on the Canvas. My level of experience is 
+          equivalent to a <b>beginner in JavaScript.</b>  I try to always practice organizing
+          codes, labling in comments and leaving informed comments in the codes to guide
+          any other programmer quickly to what is happening in the programming.
+        </p>
+      </div>
+      <div class="box">
+        <h3>HTML</h3>
+        <i class="fab fa-html5"></i>
+        <p>
+          Basic knowledge of the fundamentals and applied practice of <b>HTML and HTML5</b>.
+          Ability to use HTML to build basic brochure websites and apply it in most
+          aspects of my knowledge in web development.
+        </p>
+      </div>
+      <div class="box">
+        <h3>CSS</h3>
+        <i class="fab fa-css3-alt"></i>
+        <p>
+          Basic knowledge of the fundamentals and applied practice of <b>CSS and CSS3</b>.
+          Ability to use CSS to dress up any basic websites and use it to make any website
+          or element aesthetic pleasing for the user or viewers. I try to always practice organizing
+          codes, labling in comments and leaving informed comments in the codes to guide
+          any other programmer quickly to what is happening in the programming.
+        </p>
+      </div>
+      <div class="box">
+        <h3>Python</h3>
+        <i class="fab fa-python"></i>
+        <p>
+          I am just starting to study the basic fundamentals in Python. Python is my second
+          programming language to learn, after JavaScript, and I am finding the syntac in
+          Python easy and fun to pick up on. I have a feeling I am going to grow a real love
+          for the language. I am eager to learn more of it.
+        </p>
+      </div>
+      <div class="box">
+        <h3>BootStrap</h3>
+        <i class="fab fa-bootstrap"></i>
+        <p>
+          I have a basic knowledge of the libraries and frameworks used in BootStrap.
+          I have used it in a few practice projects during my studies and I am continuing to learn more.
+        </p>
+      </div>
+      <div class="box">
+        <h3>Linux Computers</h3>
+        <i class="fab fa-linux"></i>
+        <p>
+          I have a Linux Mint and do all of my work on it. I installed the Linux myself
+          onto my laptop, after an attack on my Windows rendered it unsecure. I taught
+          myself, through research and YouTube, how to completely clean out my hard-drive
+          of Windows and install the lastest version of Linux and set it up to my liking.
+          I've learned how to properly download packages and I am starting to learn to use
+          the computer's Terminal.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Heidi Jay's Portfolio, Copyright &copy; 2019</p>
+    <ul>
+      <li><a href="https://github.com/HeidiJay"><i class="fab fa-github-square"></i></a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.menu-toggle').click(function () {
+        $('nav').toggleClass('current')
+      })
+    })
+  </script>
+</body>
+
+</html>
